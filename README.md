@@ -9,10 +9,10 @@ The algorithm is quite simple:
 * Compute the k-grams for `Sa` and `Sb`, respectively `kSa` and `kSb`;
 * Return the Jaccard coefficient: `| kSa ∩ kSb | / | kSa ∪ kSb |`
 
-Example with `A = [usa, basket]` and `B = [basket, usa]` and `k = 2:
+Example with `A = [usa, basket]` and `B = [basket, usa]` and `k = 2`:
 * `Sa = usabasket` and `Sb = basketusa`
 * `kSa = [us, sa, ab, ba, as, sk, ke, et]` and `kSa = [ba, as, sk, ke, et, tu, us, sa]`
-* `| kSa ∩ kSb | = 7`, `| kSa ∪ kSb | = 9`, so similarity is `0.7777777777777778
+* `| kSa ∩ kSb | = 7`, `| kSa ∪ kSb | = 9`, so similarity is `0.7777777777777778`
 
 ## Installation
 
