@@ -2,14 +2,15 @@
   "name": "word-similarity",
   "version": "0.0.1",
   "description": "Utility to compute proximity factor between two sets of words.",
-  "main": "index.js",
+  "repository": "frankie567/word-similarity",
+  "main": "src/wordsimilarity.js",
   "scripts": {
     "lint": "eslint src/ test/",
     "build": "babel src -d dist",
     "test": "mocha --compilers js:babel-register"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "François Voron <fvoron@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.6.0",
