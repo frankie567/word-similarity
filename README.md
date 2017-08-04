@@ -123,6 +123,6 @@ node dist/command.js -a how -a should -a i -a store -a eggs -a in -a the -a refr
 **With 3-grams**:
 
 ```
-node dist/command.js -a how -a should -a i -a store -a eggs -a in -a the -a refrigerator -b how -b should -b i -b store -b steaks -b in -b the -b freezer -k 2
+node dist/command.js -a how -a should -a i -a store -a eggs -a in -a the -a refrigerator -b how -b should -b i -b store -b steaks -b in -b the -b freezer -k 3
 # 0.4222222222222222
 ```
