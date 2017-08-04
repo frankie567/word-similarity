@@ -12,7 +12,7 @@ The algorithm is quite simple:
 Example with `A = [usa, basket]` and `B = [basket, usa]` and `k = 2`:
 * `Sa = usabasket` and `Sb = basketusa`
 * `kSa = [us, sa, ab, ba, as, sk, ke, et]` and `kSa = [ba, as, sk, ke, et, tu, us, sa]`
-* `| kSa ∩ kSb | = 7`, `| kSa ∪ kSb | = 9`, so similarity is `0.7777777777777778`
+* `| kSa ∩ kSb | = 7`, `| kSa ∪ kSb | = 9`, so similarity is `0.7777777777777778
 
 ## Installation
 
@@ -31,6 +31,12 @@ node dist/command.js -a [word] -a [word] -b [word] -b [word] -b [word]
 ```
 
 Each `word` after an `-a` option will be appended to to the first set of words, each `word` after a `-b` option will be appended to the second set of words.
+
+Optionaly, you can provide the parameter `k`, the length of the k-grams (**default to 2**) :
+
+```
+node dist/command.js -a [word] -a [word] -b [word] -b [word] -b [word] -k 3
+```
 
 ## Examples
 
