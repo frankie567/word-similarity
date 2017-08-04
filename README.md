@@ -1,5 +1,7 @@
 # Word similarity
 
+[![Build Status](https://travis-ci.org/frankie567/word-similarity.svg?branch=master)](https://travis-ci.org/frankie567/word-similarity)
+
 Utility written in JS to compute proximity factor between two sets of words.
 
 ## Algorithm
